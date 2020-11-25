@@ -205,12 +205,21 @@ footer{
 
    header{
     flex-direction: row;
+    justify-content: space-between;
    }
 
 .spacer{
-    height: 110px;
+    height: 50px;
 }
 
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav li{
+    padding-right: 25px;
+}
 
   }
 
