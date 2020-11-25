@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+body{
+    align-items: center;
+}
+
 header{
     display: flex;
     flex-direction: column;
@@ -12,13 +16,14 @@ header{
 
 img{
     display: block;
-    width: 350px;
+    width: 320px;
     padding-top: 10px;
 }
 
 
 
 ul{
+    padding-left: 0;
     list-style: none;
     text-align: center;
    
@@ -35,3 +40,27 @@ li a{
     font-size: 18px;
     
 }
+
+#firstsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid red;
+}
+
+#firstsection h1{
+    font-size: 27px ;
+}
+
+#email{
+    display: block;
+    width: 100%;
+}
+
+
+
+
+
+
+
