@@ -201,16 +201,14 @@ footer{
 
 
 
-  @media (min-width:768px){
+  @media (min-width:900px){
 
    header{
     flex-direction: row;
     justify-content: space-between;
    }
 
-.spacer{
-    height: 50px;
-}
+
 
 nav ul {
     display: flex;
@@ -220,6 +218,22 @@ nav ul {
 nav li{
     padding-right: 25px;
 }
+
+
+#secondsection{
+    text-align: left;
+    align-items: flex-start;
+}
+
+
+
+
+
+
+.spacer{
+    height: 50px;
+}
+
 
   }
 
