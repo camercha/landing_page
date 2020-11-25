@@ -103,6 +103,31 @@ footer{
 }
 
 
+#fourthsection{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#fourthsection .itemheader{
+    background-color: #B7B7A4; 
+    
+}
+
+#fourthsection .item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid black;
+    
+    width: 290px;
+   
+    margin: 10px;
+}
+
+
 
 
 
