@@ -38,6 +38,17 @@ li a{
     
 }
 
+
+button{
+    color: black;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: yellow;
+    margin-bottom: 20px;
+}
+
+
 #firstsection{
     display: flex;
     flex-direction: column;
@@ -57,15 +68,24 @@ li a{
     width: 300px;
 }
 
-button{
-    color: black;
-    padding: 5px;
-    font-size: 18px;
-    font-weight: bold;
-    background-color: yellow;
-    margin-bottom: 20px;
+#secondsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid green;
+    background-color: #eddcd2;
 }
 
+#secondsection p{
+    font-size: 18px;
+}
+
+#thirdsection {
+    display: flex;
+   justify-content: center;
+   
+}
 
 
 
