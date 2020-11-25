@@ -84,7 +84,7 @@ footer{
     width: 300px;
 }
 
-#secondsection{
+.secondsection{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -95,8 +95,13 @@ footer{
    
 }
 
-#secondsection p{
+.secondsection p{
     font-size: 18px;
+}
+
+
+.secondsection img{
+    display: none;
 }
 
 #thirdsection  {
@@ -220,11 +225,28 @@ nav li{
 }
 
 
-#secondsection{
+.secondsection{
+    justify-content: center;
     text-align: left;
-    align-items: flex-start;
+    flex-direction: row;
 }
 
+.secondsection  .flame{
+    display: block;
+    width: 60px;
+    margin-right: 80px;
+}
+
+
+
+#thirdsection{
+    width: 600px;
+}
+
+#fourthsection{
+    flex-direction: row;
+    justify-content: center;
+}
 
 
 
