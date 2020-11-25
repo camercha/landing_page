@@ -12,18 +12,26 @@ header{
 
 img{
     display: block;
-    width: 400px;
+    width: 350px;
+    padding-top: 10px;
 }
 
 
 
 ul{
     list-style: none;
+    text-align: center;
    
+}
+
+li{
+    padding: 3px;
 }
 
 
 li a{
     text-decoration: none;
     color: black;
+    font-size: 18px;
+    
 }
