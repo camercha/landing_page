@@ -2,9 +2,6 @@
     box-sizing: border-box;
 }
 
-body{
-    align-items: center;
-}
 
 header{
     display: flex;
@@ -47,6 +44,7 @@ li a{
     align-items: center;
     text-align: center;
     border: 1px solid red;
+    background-color: #eddcd2;
 }
 
 #firstsection h1{
@@ -55,7 +53,17 @@ li a{
 
 #email{
     display: block;
-    width: 100%;
+    margin-bottom: 15px;
+    width: 300px;
+}
+
+button{
+    color: black;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: yellow;
+    margin-bottom: 20px;
 }
 
 
