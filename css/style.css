@@ -3,6 +3,10 @@
 }
 
 
+main{
+    background-color:  #eddcd2;
+}
+
 header{
     display: flex;
     flex-direction: column;
@@ -75,17 +79,21 @@ button{
     text-align: center;
     border: 1px solid green;
     background-color: #eddcd2;
+    margin-bottom: 20px;
+   
 }
 
 #secondsection p{
     font-size: 18px;
 }
 
-#thirdsection {
-    display: flex;
-   flex-direction: column;
-   align-items: center;
-   width:300px ;
+#thirdsection  {
+  
+   width:500px ;
+   border: 1px solid blue;
+   margin: auto;
+   background-color: #eddcd2;
+   
 
    
 }
