@@ -5,6 +5,7 @@
 
 main{
     background-color:  #eddcd2;
+  
 }
 
 header{
@@ -54,6 +55,7 @@ button{
 
 footer{
     background-color: #B7B7A4;
+    padding-top: 10px;
 }
 
 
@@ -129,7 +131,30 @@ footer{
 #fourthsection button{
     width: 50%;
     display: block;
-    margin: auto;
+     margin: auto;
+     margin-bottom: 10px;
+}
+
+
+#nav-btm{
+    padding-bottom: 5px;
+}
+
+#nav-btm ul{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+#nav-btm li{
+    padding-right: 25px;
+}
+
+#nav-btm p{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 25px;
+
 }
 
 
@@ -162,6 +187,7 @@ footer{
     width: 100%;
     height: 100%;
   }
+  
 
 
 
